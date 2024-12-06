@@ -326,19 +326,19 @@
 		const MeniIkonice = [
 			{
 				iconType: "instagram",
-				ref:"#"
+				ref:"https://www.instagram.com"
 			},
 			{
 				iconType: "facebook",
-				ref:"#"
+				ref:"https://www.facebook.com"
 			},
 			{
 				iconType: "twitter",
-				ref:"#"
+				ref:"https://www.twitter.com"
 			},
 			{
 				iconType: "linkedin",
-				ref:"#"
+				ref:"https://www.linkedin.com"
 				
 			},
 			{
@@ -370,15 +370,16 @@
 		MeniIkonice.forEach(function(podatak, index) {
 				
 			MenuSocials += `
-				<li><a href="${podatak.ref}"><span class="icon-${podatak.iconType}"></span></a></li>
+				<li><a href="${podatak.ref}" target="_blank"><span class="icon-${podatak.iconType}"></span></a></li>
 			`;
 		});
 		MenuSocials +='</ul>'
+		
 		menuContainer.append(MenuButtons);
 		menuContainer.append(MenuSocials);
 
 
-		
+
 
 		const images = [
 			'images/img_1.jpg',

@@ -635,7 +635,7 @@ h1, h2, h3, h4, h5,
   .header-bar ul {
     text-align: left;
     padding: 0;
-    margin: 0 0 30px 0; }
+    margin: 0 0 10px 0; }
     @media (max-width: 991.98px) {
       .header-bar ul {
         display: inline-block;
@@ -963,17 +963,17 @@ h1, h2, h3, h4, h5,
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Visina celog ekrana */
+    height: 100vh; 
     text-align: center;
-    flex-direction: column; /* Stavljanje slike i teksta u vertikalni raspored */
+    flex-direction: column; 
 }
 
   .author-image {
-    width: 250px;
-    height: 250 px;
-    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border-radius: 40%;
     margin-bottom: 20px;
-    object-fit: cover; /* Da slika ne izlazi iz okvira */
+    object-fit: cover; 
   }
 
   .author-info {
@@ -1023,4 +1023,6 @@ h1, h2, h3, h4, h5,
     color: green;
     font-size: 14px;
   }
-  
+  #infoMejl{
+    font-size:16px;
+  }
