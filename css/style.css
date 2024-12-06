@@ -1,6 +1,3 @@
-*{
-  overflow-x: hidden;
-}/* Base */
 body {
   line-height: 1.7;
   color: #000;
@@ -10,7 +7,9 @@ body {
   background: #F5EEDC; }
 
 html {
-  background: #F5EEDC; }
+  background: #F5EEDC;
+  overflow-x: hidden;
+}
 
 ::-moz-selection {
   background: #000;
