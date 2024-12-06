@@ -1,4 +1,6 @@
-/* Base */
+*{
+  overflow-x: hidden;
+}/* Base */
 body {
   line-height: 1.7;
   color: #000;
