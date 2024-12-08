@@ -274,8 +274,6 @@
   };
   OnePageNavigation();
 
-	
-
 	window.addEventListener("load",function(){
 
 		const MeniPodaci = [
@@ -344,7 +342,7 @@
 		`;
 	
 		const menuContainer = $('#meniDeo'); 
-	
+		const menuMobileContainer = $('.site-mobile-menu-body');
 	
 		MeniPodaci.forEach(function(podatak, index) {
 				
@@ -363,7 +361,8 @@
 		
 		menuContainer.append(MenuButtons);
 		menuContainer.append(MenuSocials);
-
+		menuMobileContainer.append(MenuButtons);
+		menuMobileContainer.append(MenuSocials);
 
 
 
