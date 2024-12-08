@@ -8,7 +8,6 @@ body {
 
 html {
   background: #F5EEDC;
-  overflow-x: hidden;
 }
 
 ::-moz-selection {
@@ -473,6 +472,7 @@ h1, h2, h3, h4, h5,
       visibility: visible; }
   .site-mobile-menu .site-mobile-menu-header {
     width: 100%;
+    list-style: none;
     float: left;
     padding-left: 20px;
     padding-right: 20px; }
@@ -508,6 +508,7 @@ h1, h2, h3, h4, h5,
     position: relative;
     padding: 0 20px 20px 20px;
     height: calc(100vh - 52px);
+    list-style: none;
     padding-bottom: 150px; }
   .site-mobile-menu .site-nav-wrap {
     padding: 0;
@@ -779,9 +780,11 @@ h1, h2, h3, h4, h5,
       opacity: 1;
       visibility: visible; }
 
-.site-mobile-menu .site-mobile-menu-body ul:first-child {
+.site-mobile-menu .site-mobile-menu-body ul {
   margin-bottom: 20px !important;
+  list-style: none;
   float: left; }
+  
 
 .site-mobile-menu .site-mobile-menu-body .site-nav-wrap + .site-nav-wrap {
   float: left;
